@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+  }
+  
+  #stats {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  #card {
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid #333;
+    display: inline-block;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  

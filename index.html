@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Japan Life: Card Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>일본 생활 카드 게임</h1>
+
+  <div id="character-select">
+    <h2>캐릭터를 선택하세요</h2>
+    <button onclick="startGame('워홀러')">워홀러</button>
+    <button onclick="startGame('회사원')">회사원</button>
+    <button onclick="startGame('유학생')">유학생</button>
+    <button onclick="startGame('유튜버')">유튜버</button>
+  </div>
+
+  <div id="game" style="display:none;">
+    <div id="stats">
+      💰 재정: <span id="money">0</span> |
+      ❤️ 인간관계: <span id="social">0</span> |
+      🧘 정신건강: <span id="mental">0</span> |
+      📚 성취도: <span id="study">0</span>
+    </div>
+
+    <div id="card">
+      <p id="event-text">게임을 시작합니다!</p>
+      <button onclick="choose('left')">왼쪽 선택</button>
+      <button onclick="choose('right')">오른쪽 선택</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
